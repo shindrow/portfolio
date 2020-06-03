@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <title>svg test web
+
+    </title>
+
+    <style>
+        .wrap{
+            margin: 100px;
+        }
+        /* css animation */
+
+    #bat1 {
+        stroke-dashoffset: 00;
+        stroke-dasharray: 200;
+        animation-name: monanimation;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 10;
+        animation-fill-mode: forwards;
+    
+    }
+
+    @keyframes monanimation {
+        to {
+            stroke-dashoffset: 1000;
+            stroke-dasharray: 200;
+        }
+    }
+
+    </style>
+    
+    </head>
+
+    <body>
+
+        <div class="wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="174" height="73" viewBox="0 0 174 73">
+                    <g id="bat1" data-name="Groupe 28" transform="translate(-54.29 -96)">
+                      <path id="Trace_5" data-name="Trace5" d="M197.29,18h-10V0h-158V67h158V50h10Z" transform="translate(28 99)" fill="none" stroke="#0045ff" stroke-width="6"/>
+                      <g id="bat2" data-name="Groupe 27" transform="translate(28 99)">
+                        
+                        <rect id="Rectangle_3" data-name="Rectangle 3" width="122" height="45" transform="translate(37.29 11)" fill="none" stroke="#ff00a7" stroke-width="6"/>
+                      </g>
+                    </g>
+                  </svg>
+
+        </div>
+    </body>
+</html>
